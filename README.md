@@ -1,4 +1,5 @@
 # nlw03-happy Omnistack
+
 Workshop Rockseat NextLevelWeek 03 (2020-10-12) - Trilha OmniStack (Avançado)
 
 ## Layout Proposto
@@ -7,7 +8,7 @@ Workshop Rockseat NextLevelWeek 03 (2020-10-12) - Trilha OmniStack (Avançado)
 
 ---
 
-## Fonts:
+## Fontes
 
 Utilizadas fontes customizadas pelo Google Fonts <https://fonts.google.com>
 
@@ -37,8 +38,8 @@ Utilizadas fontes customizadas pelo Google Fonts <https://fonts.google.com>
   ```
 
 * Mapas
-  * https://leafletjs.com/
-  * https://react-leaflet.js.org/
+  * <https://leafletjs.com/>
+  * <https://react-leaflet.js.org/>
   
   ```bash
   yarn add leaflet react-leaflet
@@ -46,13 +47,15 @@ Utilizadas fontes customizadas pelo Google Fonts <https://fonts.google.com>
   ```
 
   * Existem dois mapas free para utilizar:
-    * https://www.openstreetmap.org
-    * https://www.mapbox.org => Para este mapa é necessário cadastro prévio. Após cadastro:
+    * <https://www.openstreetmap.org>
+    * <https://www.mapbox.org> => Para este mapa é necessário cadastro prévio. Após cadastro:
       * copiar o token da API
       * criar um arquivo .env na raiz do App (./web) contendo
+
       ```bash
       REACT_APP_MAPBOX_TOKEN=<<SEU_TOKEN_VAI_AQUI>>
       ```
+
       * Reiniciar a App
 
 ---
